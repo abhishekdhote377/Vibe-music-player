@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: sans-serif;
+    overflow: hidden;
+    color: black;
+}
+.box  {
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+.sidebar {
+    background-color:  white;
+    width: 300px;
+    border-radius: 1rem;
+}
+.main-content {
+    background-color:  aliceblue;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    margin-left: 1rem;
+}
+.player {
+    background-color:  red;
+    position: fixed;
+    bottom: 0px; 
+    height: 72px;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    
+}
+.nav {
+    /* background-color: ; */
+    
+    background-color: aliceblue;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    
+}
+.nav-option {
+    background-color: aliceblue;
+    height: 2.5rem;
+    opacity: 0.57;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option:hover {
+    opacity: 1.2;
+}
+.nav-option i {
+    font-size: 1.20rem;
+    background-color: aliceblue;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+.nav-option a {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: aliceblue;
+}
+.lab {
+    background-color: aliceblue;
+    border-radius: 1rem;
+    margin-top: 0.8rem;
+    /* height: 100px; */
+    
+    
+}
+.lab-option {
+    background-color: aliceblue;
+    height: 2.5rem;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
+   
+}
+.lab-option i {
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    
+}
+.lab-option a {
+    font-size: 1rem;
+    background-color: aliceblue;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+/* .lab-option i:hover{
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 5px 5px 8px white;
+} */
+
+.lab-box {
+    height: 20rem;
+    background-color: aliceblue;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem 1.25rem;
+    
+}
+.new-box {
+    height: 150px;
+    line-height: 2;
+    margin-top: 0.75rem;
+    background-color: rgb(205, 228, 248);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.boxp1 {
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 0.5rem;
+    background-color: rgb(205, 228, 248);
+   
+    
+}
+.boxp2 {
+    font-size: 0.9rem;
+    background-color: rgb(205, 228, 248);
+    padding-left: 0.5rem;
+}
+.batch {
+    border-radius: 20px;
+    border: none;
+    padding: 0.25rem 0.75rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+    font-weight: 700;
+}
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+.nav-arrow i {
+
+    font-size: 1.5rem;
+    width: 2rem;
+    margin-left: 1rem;
+    
+}
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin-right: 1.5rem;
+}
+.badge{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+#login {
+    font-size: 1.5rem;
+   background-color: aliceblue;
+}
+@media (max-width:800px) {
+     .badge {
+         display: none;
+     }
+    }
